@@ -1,6 +1,6 @@
 export default function GooSvg() {
   return (
-    <svg xmlns="http://www.w3.org/2000/svg" className="w-full h-full absolute">
+    <svg xmlns="http://www.w3.org/2000/svg" className="hidden">
       <defs>
         <filter id="goo">
           <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
